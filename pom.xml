@@ -10,7 +10,7 @@
   <parent>
     <groupId>org.activiti</groupId>
     <artifactId>activiti-root</artifactId>
-    <relativePath>../..</relativePath>
+    <!--<relativePath>../..</relativePath>-->
     <version>5.22.0</version>
   </parent>
 
@@ -26,6 +26,7 @@
   </repositories>
 
   <build>
+    <finalName>activiti-explorer</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -235,6 +236,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.40</version>
     </dependency>
   </dependencies>
 </project>
