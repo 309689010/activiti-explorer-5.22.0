@@ -7,7 +7,7 @@
 
 ### FAQ
 ```$xslt
-如果遇到编辑工具栏页面都是空白的， 将app-cfg的contextRoot改为项目部署名
+如果遇到编辑流程图时工具栏页面都是空白的， 将app-cfg的contextRoot改为项目部署名
 如: 
    ACTIVITI.CONFIG = {
    	'contextRoot' : '/activiti_webapp_explorer2_war/service',
